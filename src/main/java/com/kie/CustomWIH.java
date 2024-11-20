@@ -33,13 +33,7 @@ public class CustomWIH implements WorkItemHandler {
     private ConnectionFactory connectionFactory;
     private Destination destination;
 
-    private boolean transacted = false;
 
-    public CustomWIH() {
-        this.connectionFactoryName = "java:/JmsXA";
-        this.destinationName = "queue/KIE.SIGNAL";
-        init();
-    }
 
     public CustomWIH(String connectionFactoryName,
                                          String destinationName) {
