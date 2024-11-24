@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>CustomWIH</groupId>
 	<artifactId>CustomWIH</artifactId>
-	<version>0.1.36-SNAPSHOT</version>
+	<version>0.1.40-SNAPSHOT</version>
 	<dependencies>
 		<dependency>
 			<groupId>org.kie</groupId>
@@ -17,6 +17,11 @@
 		<artifactId>jboss-jms-api_2.0_spec</artifactId>
 		<version>2.0.0.Final</version>
 			<scope> provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.15.2</version>
 		</dependency>
 
 	</dependencies>

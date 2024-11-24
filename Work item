@@ -1,0 +1,3 @@
+JMSReceiveTaskWorkItem
+
+new com.kie.CustomWIH("java:jboss/RemoteJmsXA", "ExternalSignalQueue",ksession)
